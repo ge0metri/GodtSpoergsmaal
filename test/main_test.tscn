@@ -1,0 +1,47 @@
+[gd_scene load_steps=3 format=3 uid="uid://dg4tfv0eobrua"]
+
+[ext_resource type="Script" uid="uid://c7m1n5xj5e8wy" path="res://test/spritemover.gd" id="1_7otsb"]
+[ext_resource type="PackedScene" uid="uid://bvbcu5ecygjx7" path="res://test/test_scene.tscn" id="1_plck6"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_7otsb")
+
+[node name="Node2D" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D2" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D3" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D4" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D5" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D6" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D7" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D8" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D9" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D10" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D11" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D12" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D13" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D14" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D15" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D16" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D17" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D18" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D19" parent="." instance=ExtResource("1_plck6")]
+
+[node name="Node2D20" parent="." instance=ExtResource("1_plck6")]
