@@ -1,0 +1,15 @@
+[gd_resource type="Resource" load_steps=4 format=3 uid="uid://cbswgq0t600kb"]
+
+[ext_resource type="Script" uid="uid://0fc2e50ak1pf" path="res://test/new_script.gd" id="1_inhpa"]
+
+[sub_resource type="Gradient" id="Gradient_f2blp"]
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_kw08p"]
+gradient = SubResource("Gradient_f2blp")
+fill_from = Vector2(0.57522124, 0.2699115)
+fill_to = Vector2(0.84070796, 0.8893805)
+
+[resource]
+script = ExtResource("1_inhpa")
+max_hp = 5
+sprite = SubResource("GradientTexture2D_kw08p")
